@@ -1,5 +1,43 @@
 # modular-scripts
 
+## 2.0.0
+
+### Major Changes
+
+- [#609](https://github.com/jpmorganchase/modular/pull/609)
+  [`be2d35e`](https://github.com/jpmorganchase/modular/commit/be2d35e9b12a63783bee35a4cae1d3557d64b3ac)
+  Thanks [@LukeSheard](https://github.com/LukeSheard)! - Remove compiling
+  binaries from "bin" field in package.json.
+
+* [#918](https://github.com/jpmorganchase/modular/pull/918)
+  [`9d8c2f6`](https://github.com/jpmorganchase/modular/commit/9d8c2f62c3db319feac877f526fe37a46dfa8617)
+  Thanks [@LukeSheard](https://github.com/LukeSheard)! - Remove programatic API.
+
+- [#908](https://github.com/jpmorganchase/modular/pull/908)
+  [`226ad45`](https://github.com/jpmorganchase/modular/commit/226ad45251ab1955bd955fac97407e263af9de76)
+  Thanks [@LukeSheard](https://github.com/LukeSheard)! - Add exports fields to
+  all packages.
+
+### Minor Changes
+
+- [#986](https://github.com/jpmorganchase/modular/pull/986)
+  [`5a4c8e7`](https://github.com/jpmorganchase/modular/commit/5a4c8e7325e46565757669ae567c954c8b4885f5)
+  Thanks [@LukeSheard](https://github.com/LukeSheard)! - Parity of esbuild size
+  logging.
+
+### Patch Changes
+
+- [#990](https://github.com/jpmorganchase/modular/pull/990)
+  [`8ae4bb4`](https://github.com/jpmorganchase/modular/commit/8ae4bb468d0774b1fdab4122d5d86b0e86fb3f9b)
+  Thanks [@LukeSheard](https://github.com/LukeSheard)! - Fix bug where async
+  imports in packages would mean that builds would fail to due not found in
+  chunk validations.
+
+* [#989](https://github.com/jpmorganchase/modular/pull/989)
+  [`2f0bd5b`](https://github.com/jpmorganchase/modular/commit/2f0bd5b3b091412c9dafb9a32f547ea5413db0a5)
+  Thanks [@LukeSheard](https://github.com/LukeSheard)! - Remove setupEnv when
+  running tests
+
 ## 1.6.0
 
 ### Minor Changes
